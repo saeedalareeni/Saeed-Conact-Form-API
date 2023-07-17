@@ -1,0 +1,14 @@
+.form-group-name {
+  width: auto;
+  display: inline-block;
+}
+
+.form-group-mobile {
+  width: auto;
+  display: inline-block;
+  margin: 3px 9px;
+}
+
+input#email {
+  width: 100%;
+}
