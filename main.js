@@ -9,6 +9,10 @@ function savee() {
     })
     .then(function (response) {
       Swal.fire("Good job!", "Contact saved successfully!", "success");
+
+      document.getElementById("name").value = " ";
+      document.getElementById("mobile").value = " ";
+      document.getElementById("email").value = " ";
     })
     .catch(function (error) {
       console.log(error.response.data.message);
