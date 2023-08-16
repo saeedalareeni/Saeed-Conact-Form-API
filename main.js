@@ -1,6 +1,8 @@
+// Created By Saeed al-areeni
+
 function savee() {
   axios
-    .post("https://mail.sfa.com.ps/api/contact/save", {
+    .post("Put your Api Here", {
       contact_type: document.getElementById("contact_type").value,
       status: document.getElementById("status").value,
       name: document.getElementById("name").value,
